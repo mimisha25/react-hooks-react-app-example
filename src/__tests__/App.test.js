@@ -2,6 +2,7 @@ import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import { format } from "date-fns";
 import App from "../components/App";
+import React from "react";
 
 beforeEach(() => {
   render(<App />);
